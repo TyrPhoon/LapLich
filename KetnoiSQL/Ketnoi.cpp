@@ -35,7 +35,7 @@ void Ketnoi::init()
     //output
     cout << "Attempting connection to SQL Server...";
     cout << "\n";
-    switch (SQLDriverConnect(sqlConnHandle, NULL, (SQLWCHAR*)L"DRIVER={SQL Server};SERVER=LAPTOP-4GBHJKKK;DATABASE=PBL2",
+    switch (SQLDriverConnect(sqlConnHandle, NULL, (SQLWCHAR*)L"DRIVER={SQL Server};SERVER=TYR-PHOON;DATABASE=PBL2",
         SQL_NTS,
         retconstring,
         1024,
